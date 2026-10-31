@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: How to contribute (Readiness Check and access levels)
+    url: https://github.com/jhodges07/Legislative-Manager/blob/main/CONTRIBUTING.md
+    about: Read this first. Issues are for contributors at Level 2 or 3.

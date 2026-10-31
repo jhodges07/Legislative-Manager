@@ -15,8 +15,8 @@
 **Related Project:** None (independent of PRJ-001)  
 **Jurisdiction:** State of Kansas  
 **Status:** Proposed — Engineering Phase (Pre-Draft), awaiting CWC-CE  
-**Version:** 0.2.0  
-**Date:** 2026-10-30  
+**Version:** 0.3.0  
+**Date:** 2026-10-31  
 
 ---
 
@@ -356,7 +356,7 @@ Part B rewards understanding, not agreement: a candidate may disagree with the d
 | Level | May | Granted by | Requires |
 |---|---|---|---|
 | 1. Reviewer | Read the model language document and comment on its clauses | Human Engineer shares the document | Readiness Check passed |
-| 2. Contributor | Read this repository and open issues | Human Engineer grants GitHub read access | Level 1, plus useful, sourced review comments |
+| 2. Contributor | Open issues (Review Comment or Proposed Change template); reading needs no grant because this repository is public | Human Engineer records the person's GitHub username at Level 2 | Level 1, plus useful, sourced review comments |
 | 3. Proposer | Propose changes by branch and pull request | Human Engineer grants GitHub write access | Level 2, plus useful issues |
 
 At every level the contributor proposes and the Human Engineer decides. Only the Human Engineer merges, approves, or advances lifecycle state (WF-001, STD-008).
@@ -367,6 +367,7 @@ At every level the contributor proposes and the Human Engineer decides. Only the
 2. Access is reviewed when a contributor's work stops meeting the level's standard; the Human Engineer may lower or remove it.
 3. AI assistants used by contributors follow the same rule: they may draft and review, never approve.
 4. Each grant and removal is recorded by the Human Engineer, with name, level and date.
+5. This repository is public by design. Issues and pull requests from people not recorded at Level 2 or 3 may be closed by the Human Engineer without review.
 
 ## Version History
 
@@ -374,3 +375,4 @@ At every level the contributor proposes and the Human Engineer decides. Only the
 |---|---|---|
 | 0.1.0 | 2026-10-30 | Proposed project specification for PRJ-002; awaiting CWC-CE. No operative text. |
 | 0.2.0 | 2026-10-30 | Added Section 18, Contributor Readiness and Access (Human Engineer's direction). No operative text. |
+| 0.3.0 | 2026-10-31 | Section 18: Level 2 redefined for a public repository (no read grant; recorded username may open issues); Condition 5 added (Human Engineer's direction). No operative text. |
