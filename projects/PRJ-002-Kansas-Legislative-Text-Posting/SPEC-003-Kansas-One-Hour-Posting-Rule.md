@@ -15,7 +15,7 @@
 **Related Project:** None (independent of PRJ-001)  
 **Jurisdiction:** State of Kansas  
 **Status:** Proposed — Engineering Phase (Pre-Draft), awaiting CWC-CE  
-**Version:** 0.1.0  
+**Version:** 0.2.0  
 **Date:** 2026-10-30  
 
 ---
@@ -336,8 +336,41 @@ Publication is out of scope. `KS-PUB-COMP-002` requires a manifest, member freez
 
 ---
 
+## 18. Contributor Readiness and Access
+
+Outside contributors (reviewers who are not the Human Engineer) are admitted to PRJ-002 work only after showing that they understand the project's goal, and then in stages. This section governs who may read, comment on, or propose changes to PRJ-002 material. It grants no drafting authority; Section 7.2 and Section 13 still govern drafting.
+
+### 18.1 Readiness Check
+
+A person is ready for Level 1 access when they pass both parts:
+
+| Part | Requirement | Scored by |
+|---|---|---|
+| A. Lesson quizzes | At least 3 of 4 correct on each of: Runtime-Republic Training, *The One-Hour Rule* Lessons 01–05 and *Reading the Draft* Lessons 01–02 | The quiz form, automatically |
+| B. Explain it back | A pass on three written questions: (1) the problem PRJ-002 solves and why a joint rule alone cannot fix it; (2) the four safe-harbor conditions and why votes stay out of the repository; (3) one real weakness in the draft and a proposed fix | Human Engineer, using the scoring guide kept with the Readiness Check form |
+
+Part B rewards understanding, not agreement: a candidate may disagree with the draft and still pass. The answer keys and scoring guide are kept with the Human Engineer's Readiness Check form, not in this repository.
+
+### 18.2 Access Levels
+
+| Level | May | Granted by | Requires |
+|---|---|---|---|
+| 1. Reviewer | Read the model language document and comment on its clauses | Human Engineer shares the document | Readiness Check passed |
+| 2. Contributor | Read this repository and open issues | Human Engineer grants GitHub read access | Level 1, plus useful, sourced review comments |
+| 3. Proposer | Propose changes by branch and pull request | Human Engineer grants GitHub write access | Level 2, plus useful issues |
+
+At every level the contributor proposes and the Human Engineer decides. Only the Human Engineer merges, approves, or advances lifecycle state (WF-001, STD-008).
+
+### 18.3 Conditions
+
+1. A person who holds public office is told before Level 1 that their comments about official business may be public records under the Kansas Open Records Act, and that discussion among a majority of one public body belongs in a noticed meeting.
+2. Access is reviewed when a contributor's work stops meeting the level's standard; the Human Engineer may lower or remove it.
+3. AI assistants used by contributors follow the same rule: they may draft and review, never approve.
+4. Each grant and removal is recorded by the Human Engineer, with name, level and date.
+
 ## Version History
 
 | Version | Date | Summary |
 |---|---|---|
 | 0.1.0 | 2026-10-30 | Proposed project specification for PRJ-002; awaiting CWC-CE. No operative text. |
+| 0.2.0 | 2026-10-30 | Added Section 18, Contributor Readiness and Access (Human Engineer's direction). No operative text. |
